@@ -1,0 +1,209 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom styling*/
+/*--------------*/
+/*--------------*/
+/*--------------*/
+
+body {
+  background-color: rgb(238, 240, 246);
+  font-size: 20px;
+	font-family: 'Lucida Grande';
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+}
+
+a{
+	text-decoration: none;
+	color: #365899;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	color: #666;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/*header*/
+/*-----*/
+
+header {
+  background-color: rgb(59, 89, 152);
+  padding: 20px;
+  height: 45px;
+  position: relative;
+}
+header h1 {
+  display: inline;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+	top: 25px;
+	left: 3%;
+}
+header a {
+	position: absolute;
+	right: 20%;
+	top: 65px;
+	font-size: 15px;
+	color: rgb(156, 180, 216);
+}
+header table {
+  display: inline-block;
+  position: absolute;
+  right: 12%;
+  top: 10px;
+	border-collapse: separate;
+ 	border-spacing: 12px 5px;
+}
+td {
+	color: white;
+	font-size: 16px;
+}
+td input {
+	line-height: 18px;
+	width: 142px;
+}
+#login {
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	background-color: rgb(66, 103, 178);
+	border: 1px solid #777;
+	border-radius: 2px;
+}
+
+/*main*/
+/*----*/
+
+.left-column {
+	display: inline-block;
+	width: 53%;
+	vertical-align: top;
+	padding-top: 40px;
+	text-align: center;
+}
+.left-column img {
+	width: 500px;
+	height: 400px;
+	padding-bottom: 35px;
+}
+.left-column h2 {
+	color: rgb(59, 89, 162);
+	font-size: 28px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.left-column h4 {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.right-column {
+	display: inline-block;
+	width: 38%;
+	padding-top: 30px;
+}
+.right-column h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+.right-column h3 {
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+
+.signup-inputs {
+	margin-top: 10px;
+}
+
+.signup-inputs input {
+	font-size: 18px;
+	padding: 8px 10px;
+	border-color: #bdc7d8;
+	border-radius: 5px;
+	width: 377px;
+	margin: 6px;
+}
+.signup-inputs .name-input {
+	width: 172px;
+}
+
+.signup-form select {
+  background-color: rgb(248, 248, 248);
+	border: 1px solid #bdc7d8;
+	font-size: 15px;
+	line-height: 22px;
+}
+.signup-form #birthday-link {
+	font-size: 15px;
+	margin-left: 5px;
+}
+.signup-form .radio {
+	font-size: 25px;
+	margin: 15px;
+}
+.signup-form p {
+	font-size: 15px;
+	font-weight: normal;
+}
+.signup-form button {
+  font-size: 19px;
+	font-weight: bold;
+	color: white;
+	background-color: #66aa55;
+	width: 194px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	line-height: 126%;
+	cursor: pointer;
+	margin: 15px;
+	padding: 10px;
+}
